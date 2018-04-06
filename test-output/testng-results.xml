@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29107" started-at="2018-03-22T11:16:06Z" finished-at="2018-03-22T11:16:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29107" started-at="2018-03-22T11:16:06Z" finished-at="2018-03-22T11:16:35Z">
+      <class name="com.qa.FreeCRM.homepage.ScheduleCallPageTest">
+        <test-method status="PASS" signature="ScheduleCallInit()[pri:0, instance:com.qa.FreeCRM.homepage.ScheduleCallPageTest@28feb3fa]" name="ScheduleCallInit" is-config="true" duration-ms="23357" started-at="2018-03-22T11:16:06Z" finished-at="2018-03-22T11:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScheduleCallInit -->
+        <test-method status="PASS" signature="SchedulecallPage()[pri:0, instance:com.qa.FreeCRM.homepage.ScheduleCallPageTest@28feb3fa]" name="SchedulecallPage" duration-ms="5713" started-at="2018-03-22T11:16:29Z" finished-at="2018-03-22T11:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SchedulecallPage -->
+      </class> <!-- com.qa.FreeCRM.homepage.ScheduleCallPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
