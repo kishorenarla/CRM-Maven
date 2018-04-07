@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29107" started-at="2018-03-22T11:16:06Z" finished-at="2018-03-22T11:16:35Z">
+  <suite name="Default suite" duration-ms="37146" started-at="2018-04-07T12:48:46Z" finished-at="2018-04-07T12:49:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29107" started-at="2018-03-22T11:16:06Z" finished-at="2018-03-22T11:16:35Z">
-      <class name="com.qa.FreeCRM.homepage.ScheduleCallPageTest">
-        <test-method status="PASS" signature="ScheduleCallInit()[pri:0, instance:com.qa.FreeCRM.homepage.ScheduleCallPageTest@28feb3fa]" name="ScheduleCallInit" is-config="true" duration-ms="23357" started-at="2018-03-22T11:16:06Z" finished-at="2018-03-22T11:16:29Z">
+    <test name="Default test" duration-ms="37146" started-at="2018-04-07T12:48:46Z" finished-at="2018-04-07T12:49:23Z">
+      <class name="com.qa.FreeCRM.homepage.HomePageTest">
+        <test-method status="PASS" signature="HomePageTest1()[pri:0, instance:com.qa.FreeCRM.homepage.HomePageTest@1593948d]" name="HomePageTest1" is-config="true" duration-ms="19854" started-at="2018-04-07T13:48:46Z" finished-at="2018-04-07T13:49:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScheduleCallInit -->
-        <test-method status="PASS" signature="SchedulecallPage()[pri:0, instance:com.qa.FreeCRM.homepage.ScheduleCallPageTest@28feb3fa]" name="SchedulecallPage" duration-ms="5713" started-at="2018-03-22T11:16:29Z" finished-at="2018-03-22T11:16:35Z">
+        </test-method> <!-- HomePageTest1 -->
+        <test-method status="PASS" signature="Datepick()[pri:0, instance:com.qa.FreeCRM.homepage.HomePageTest@1593948d]" name="Datepick" duration-ms="17259" started-at="2018-04-07T13:49:06Z" finished-at="2018-04-07T13:49:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SchedulecallPage -->
-      </class> <!-- com.qa.FreeCRM.homepage.ScheduleCallPageTest -->
+        </test-method> <!-- Datepick -->
+      </class> <!-- com.qa.FreeCRM.homepage.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

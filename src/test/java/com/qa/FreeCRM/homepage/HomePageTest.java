@@ -45,21 +45,25 @@ public class HomePageTest extends TestBase {
 	 	
 	 }
 	
-	@Test(priority=1)
+	//@Test(priority=1)
 	public void VerifyUser()
 	{  
 		testutil.swithchtoFrame(); 
 		
 		Assert.assertTrue(homepage.LoggeruserVerify());
 	}
-	
-	@Test(priority =2)
+	@Test(priority =1)
+	public void Datepick() throws InterruptedException
+	{
+		homepage.DateSelection();
+	}
+	//@Test(priority =2)
 	public void ClickonScheduleLink() throws InterruptedException
 	{
 		homepage.clickonScheduleLink();
 	}
 	 
-	 @Test(enabled =false)
+	// @Test(enabled =false)
 	 public void clickOnContactslinkTest() 
 	 {    
 		 testutil.swithchtoFrame();
@@ -67,7 +71,7 @@ public class HomePageTest extends TestBase {
 		 
 	 }
 	
-	 @AfterMethod
+	// @AfterMethod
 	 public void teardown()
 	 {
 		 driver.close();

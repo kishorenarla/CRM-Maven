@@ -1,5 +1,6 @@
 package com.qa.FreeCRM.PageLayers;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -28,6 +29,11 @@ public HomePage()
 	
 	
 }
+@FindBy(xpath="//select[@name='slctMonth']") // HomePage calendar month
+WebElement SelectMonth;
+
+@FindBy(xpath="//select[@name='slctYear']") // HomePage calendar year
+WebElement SelectYear;
 
 @FindBy(xpath="//a[@title='Contacts']")
 WebElement Contactslink;
@@ -117,5 +123,27 @@ driver.switchTo().frame("mainpanel");
 	return new ScheduleCallPage();
 }
 
+public void DateSelection() throws InterruptedException
+{  
+	util= new Testutil();
+	util.swithchtoFrame();
+	WebElement calender = driver.findElement(By.xpath("//div[@id='crmcalendar']"));
+	Thread.sleep(5000);
+	util.SelectbyVisibleText(SelectMonth, "June");
+	Thread.sleep(5000);
+	util.SelectbyVisibleText(SelectYear, "2018");
+		Thread.sleep(6000);		
+	List<WebElement> columns=driver.findElements(By.xpath("//td[@class='calendarcell']"));
+
+	for (WebElement cell: columns){
+	  
+	   if (cell.getText().equals("10")){
+	      cell.click();
+	      break;
+	 }
+	}
+	
+	
+}
 
 }
